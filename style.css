@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.row .team-mate img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.text-flip {
+  transform: rotate(90deg);
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-left: 80px;
+}
+
+@media (max-width: 420px) {
+  .text-flip {
+    margin-left: 150px;
+  }
+  .row .team-mate{
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1375px) {
+  .text-flip {
+    margin-left: 200px;
+  }
+  .row .team-mate{
+    margin-bottom: 30px;
+  }
+}
